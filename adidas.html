@@ -74,10 +74,42 @@
 
         <div class="navbar">
             <a class="active" href="adidas.html">Inicio</a> 
-            <a href="#">Productos / Servicios</a> 
-            <a href="#">Tiendas</a> 
-            <a href="#">Contáctenos</a>
+            <a href="productos.php">Productos / Servicios</a> 
+            <a href="tiendas.php">Tiendas</a> 
+            <a href="contactenos.php">Contáctenos</a>
             <a href="index.html">Login</a>
-</div>
+        </div>
+
+        <div class="contenedor">
+          <header>Ofertas del Mes</header>
+          <section class="producto1"><img src="images/produc1.jpg" onclick="myFunction(this);"></section>
+          <section class="producto2"><img src="images/produc2.webp" onclick="myFunction(this);"></section>
+          <section class="producto3"><img src="images/produc3.webp" onclick="myFunction(this);"></section>
+          <section class="producto4"><img src="images/produc4.jpg" onclick="myFunction(this);"></section>
+          <footer>
+            <p class="pbx"><b>PBX. 20222004</b></p>
+            <p class="direccion"><b>Dirección: Liceo Canadiense</b></p>
+            <p class="carne"><b>Carne: 2021-40132</b></p>
+            <p class="nombre"><b>Nombre: Elder Alejandro Iboy Montenegro</b></p>
+          </footer>
+        </div>
+
+        <!--Proceso extra-->
+
+        <div class="container">
+          <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+          <img id="expandedImg" style="width:100%">
+          <div id="imgtext"></div>
+        </div>
+        
+        <script>
+        function myFunction(imgs) {
+          var expandImg = document.getElementById("expandedImg");
+          var imgText = document.getElementById("imgtext");
+          expandImg.src = imgs.src;
+          imgText.innerHTML = imgs.alt;
+          expandImg.parentElement.style.display = "block";
+        }
+        </script>
 </body>
 </html>
