@@ -134,12 +134,12 @@ body {font-family: Arial, Helvetica, sans-serif;}
   display: grid;
   grid-template-areas: 
   'encabezado encabezado encabezado encabezado'
-  'producto1 producto2 producto2 producto3'
-  'producto1 producto4 producto4 producto4'
+  'producto1 producto1 producto2 producto3'
+  'producto1 producto1 producto4 producto4'
   'pie pie pie pie'
   ;
   grid-template-rows: 10vh 25vh 25vh 10vh;
-  grid-template-columns: 35% 35% 10% 20%;
+  grid-template-columns: 25% 25% 25% 25%;
 }
 
 header{
@@ -184,7 +184,6 @@ footer{
   grid-template-columns: 25% 25% 25% 25%;
   padding: 10px;
   font-family: 'Arial Narrow Bold';
-  
 }
 
 /*Proceso extra*/
