@@ -23,7 +23,9 @@
                 <a href="index.html">Login</a>
             </div>
         </header>
-        <section class="titulo">Productos / Servicios</section>
+        <section class="titulo">
+            Productos / Servicios
+        </section>
         <figure class="prod1">
             <img src="images/prod1.webp">
             <div class="capa">
