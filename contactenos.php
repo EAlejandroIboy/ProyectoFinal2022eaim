@@ -16,13 +16,13 @@
                 <a href="productos.php">Productos / Servicios</a> 
                 <a href="tiendas.php">Tiendas</a> 
                 <a class="active" href="contactenos.php">Contáctenos</a>
-                <a href="index.html">Login</a>
+                <a href="sesion.php">Ver Mensajes</a>
             </div>
         </header>
         <section class="titulo">Contáctenos</section>
         <section class="formulario">
             <div class="container">
-                <form action="" method='POST'>
+                <form action="insertar.php" method='POST'>
                     <label for="nombre">Nombres*</label><br>
                     <input type="text" placeholder="Ingrese nombre y apellido" name="nombre" required><br>
                     <label for="telefono">Teléfono / Celular</label><br>
@@ -31,7 +31,7 @@
                     <input type="text" placeholder="Ingrese correo electronico" name="correo" required><br>
                     <label for="mensaje">Mensaje*</label><br>
                     <input type="text" placeholder="Ingrese su mensaje" name="mensaje" required><br>
-                    <input type="submit" value="Enviar Mensaje">
+                    <input type="submit" value="Enviar Mensaje" name="Enviar">
                 </form>
             </div>
         </section>

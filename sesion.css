@@ -1,0 +1,137 @@
+/* Aqui empieza la barra de navegación*/
+
+* {box-sizing: border-box}
+body {font-family: Arial, Helvetica, sans-serif; margin:0}
+
+.navbar {
+  width: 100%;
+  background-color: #555;
+  overflow: auto;
+}
+
+.navbar a {
+  float: left;
+  padding: 12px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+  width: 33.3%; /* Four links of equal widths */
+  text-align: center;
+}
+
+.navbar a:hover {
+  background-color: #000;
+}
+
+.navbar a.active {
+  background-color: #04AA6D;
+}
+
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+    width: 100%;
+    text-align: left;
+  }
+}
+
+/*Diseño Formulario*/
+
+body {
+  font-family: Arial;
+}
+
+input[type=text], select {
+  width: 80%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: block;
+  border: 1px solid rgb(43, 47, 105);
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=password], select {
+  width: 80%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: block;
+  border: 1px solid rgb(43, 47, 105);
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=button] {
+  font-family: 'Arial Narrow Bold';
+  font-size: 20px;
+  width: 25%;
+  background-color: #4e9eb3;
+  color: black;
+  padding: 10px;
+  border: 1px solid gray;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #2f5da3;
+}
+
+div.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+input:invalid:focus {
+  background-image: linear-gradient(rgba(235, 97, 120, 0.315), rgba(156, 13, 13, 0.308));
+}
+
+input:valid:focus {
+  background-image: linear-gradient(rgba(97, 235, 104, 0.315), rgba(13, 156, 32, 0.308));
+}
+
+/*Maquetación de la pagina*/
+
+.contenedor{
+    width: 100%;
+    display: grid;
+    grid-template-areas: 
+    'encabezado'
+    'titulo'
+    'formulario'
+    'pie'
+    ;
+    grid-template-rows: 10vh 10vh 70vh 10vh;
+    grid-template-columns: 100%;
+  }
+  
+  header{
+    grid-area: encabezado;
+  }
+  
+  .titulo{
+    grid-area: titulo;
+    padding: 10px;
+    font-family: 'Arial Narrow Bold';
+    font-size: 40px;
+  }
+  
+  .formulario{
+    align-content: center;
+    grid-area: formulario;
+    padding: 25px;
+  }
+  
+  footer{
+    grid-area: pie;
+    background-color: #555;
+    display: grid;
+    grid-template-areas: 
+    'pbx direccion carne nombre'
+    ;
+    grid-template-columns: 20% 25% 25% 30%;
+    padding: 10px;
+    font-family: 'Arial Narrow Bold';
+  }
