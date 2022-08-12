@@ -134,16 +134,23 @@ body {font-family: Arial, Helvetica, sans-serif;}
   display: grid;
   grid-template-areas: 
   'encabezado encabezado encabezado encabezado'
+  'titulo titulo titulo titulo'
   'producto1 producto1 producto2 producto3'
   'producto1 producto1 producto4 producto4'
   'pie pie pie pie'
   ;
-  grid-template-rows: 10vh 25vh 25vh 10vh;
+  grid-template-rows: 65vh 10vh 35vh 35vh 10vh;
   grid-template-columns: 25% 25% 25% 25%;
 }
 
 header{
   grid-area: encabezado;
+  font-family: 'Arial Narrow Bold';
+  font-size: 40px;
+}
+
+.titulo{
+  grid-area: titulo;
   padding: 10px;
   font-family: 'Arial Narrow Bold';
   font-size: 40px;
