@@ -116,7 +116,7 @@
         </div>
         <div class="prod9" align="center">
             <figure>
-                <img src="images/producto9/prod9.webp">
+                <img src="images/producto9/prod9.jpg">
                 <div class="capa">
                     <h3>SUDADERA CON CAPUCHA CROP</h3>
                     <p><b>€ 85</b></p>
