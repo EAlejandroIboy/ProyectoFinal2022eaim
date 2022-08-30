@@ -1,4 +1,5 @@
 <?php
+//Este insertar es para los correos de Contactenos
 include('bd.php');
 
 if (isset($_POST['Enviar'])) {

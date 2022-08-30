@@ -25,7 +25,7 @@
                     <input type="text" placeholder="Ingrese su usuario" name="usuario" required><br>
                     <label for="telefono">Contraseña</label><br>
                     <input type="password" placeholder="Ingrese su contraseña" name="pass" required><br>
-                    <input type="button" value="Enviar Mensaje" input class="buttons" id="button" onclick="usrpas()">
+                    <input type="button" value="Iniciar Sesión" input class="buttons" id="button" onclick="usrpas()">
                 </form>
             </div>
         </section>
