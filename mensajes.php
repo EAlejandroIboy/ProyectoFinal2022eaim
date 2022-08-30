@@ -12,7 +12,7 @@
     <div class="contenedor">
         <header>
             <div class="navbar">
-                <a href="adidas.html">Inicio</a> 
+                <a href="adidas.php">Inicio</a> 
                 <a href="productos.php">Productos / Servicios</a> 
                 <a href="tiendas.php">Tiendas</a> 
                 <a href="contactenos.php">Contáctenos</a>

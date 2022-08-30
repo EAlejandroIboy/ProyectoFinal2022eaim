@@ -14,11 +14,11 @@
     <div class="contenedor">
         <header>
             <div class="navbar">
-                <a href="adidas.html">Inicio</a> 
+                <a href="adidas.php">Inicio</a> 
                 <a href="productos.php">Productos / Servicios</a> 
                 <a class="active" href="tiendas.php">Tiendas</a> 
                 <a href="contactenos.php">Contáctenos</a>
-                <a href="index.html">Login</a>
+                <a href="index.php">Login</a>
             </div>
         </header>
         <section class="titulo">

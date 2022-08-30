@@ -12,7 +12,7 @@
     <div class="contenedor">
         <header>
             <div class="navbar">
-                <a href="adidas.html">Inicio</a> 
+                <a href="adidas.php">Inicio</a> 
                 <a href="productos.php">Productos / Servicios</a> 
                 <a href="tiendas.php">Tiendas</a> 
                 <a class="active" href="contactenos.php">Contáctenos</a>
@@ -22,7 +22,7 @@
         <section class="titulo">Contáctenos</section>
         <section class="formulario">
             <div class="container">
-                <form action="insertar.php" method='POST'>
+                <form action="contactenos_ins.php" method='POST'>
                     <label for="nombre">Nombres*</label><br>
                     <input type="text" placeholder="Ingrese nombre y apellido" name="nombre" required><br>
                     <label for="telefono">Teléfono / Celular</label><br>
