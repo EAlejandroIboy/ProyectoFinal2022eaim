@@ -52,6 +52,16 @@ input[type=text], select {
   box-sizing: border-box;
 }
 
+input[type=email], select {
+  width: 80%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: block;
+  border: 1px solid rgb(43, 47, 105);
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
 input[type=submit] {
   font-family: 'Arial Narrow Bold';
   font-size: 20px;

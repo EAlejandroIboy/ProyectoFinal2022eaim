@@ -42,15 +42,20 @@ body {font-family: Arial, Helvetica, sans-serif; margin:0}
   width: 100%;
   display: grid;
   grid-template-areas: 
-  'encabezado encabezado'
-  'titulo titulo'
-  'tienda1 info1'
-  'tienda2 info2'
-  'tienda3 info3'
-  'pie pie'
+  'encabezado encabezado encabezado'
+  'titulo titulo titulo'
+  'imagen1 info1 tienda1'
+  'imagen2 info2 tienda2'
+  'imagen3 info3 tienda3'
+  'imagen4 info4 tienda4'
+  'imagen5 info5 tienda5'
+  'imagen6 info6 tienda6'
+  'imagen7 info7 tienda7'
+  'imagen8 info8 tienda8'
+  'pie pie pie'
   ;
-  grid-template-rows: 10vh 10vh 50vh 50vh 60vh 10vh;
-  grid-template-columns: 40% 60%;
+  grid-template-rows: 10vh 10vh 70vh 70vh 70vh 70vh 70vh 70vh 70vh 70vh 10vh;
+  grid-template-columns: 25% 30% 45%;
 }
 
 header{
@@ -64,6 +69,11 @@ header{
   font-size: 40px;
 }
 
+.imagen1{
+  grid-area: imagen1;
+  padding: 10px;
+}
+
 .tienda1{
   grid-area: tienda1;
   padding: 10px;
@@ -71,6 +81,11 @@ header{
 
 .info1{
   grid-area: info1;
+  padding: 10px;
+}
+
+.imagen2{
+  grid-area: imagen2;
   padding: 10px;
 }
 
@@ -84,6 +99,11 @@ header{
   padding: 10px;
 }
 
+.imagen3{
+  grid-area: imagen3;
+  padding: 10px;
+}
+
 .tienda3{
   grid-area: tienda3;
   padding: 10px;
@@ -91,6 +111,81 @@ header{
 
 .info3{
   grid-area: info3;
+  padding: 10px;
+}
+
+.imagen4{
+  grid-area: imagen4;
+  padding: 10px;
+}
+
+.tienda4{
+  grid-area: tienda4;
+  padding: 10px;
+}
+
+.info4{
+  grid-area: info4;
+  padding: 10px;
+}
+
+.imagen5{
+  grid-area: imagen5;
+  padding: 10px;
+}
+
+.tienda5{
+  grid-area: tienda5;
+  padding: 10px;
+}
+
+.info5{
+  grid-area: info5;
+  padding: 10px;
+}
+
+.imagen6{
+  grid-area: imagen6;
+  padding: 10px;
+}
+
+.tienda6{
+  grid-area: tienda6;
+  padding: 10px;
+}
+
+.info6{
+  grid-area: info6;
+  padding: 10px;
+}
+
+.imagen7{
+  grid-area: imagen7;
+  padding: 10px;
+}
+
+.tienda7{
+  grid-area: tienda7;
+  padding: 10px;
+}
+
+.info7{
+  grid-area: info7;
+  padding: 10px;
+}
+
+.imagen8{
+  grid-area: imagen8;
+  padding: 10px;
+}
+
+.tienda8{
+  grid-area: tienda8;
+  padding: 10px;
+}
+
+.info8{
+  grid-area: info8;
   padding: 10px;
 }
 
@@ -106,7 +201,7 @@ footer{
   font-family: 'Arial Narrow Bold';
 }
 
-img{
+iframe{
   border: 2px solid black;
   width: 100%;
   height: 100%;

@@ -24,13 +24,13 @@
             <div class="container">
                 <form action="contactenos_ins.php" method='POST'>
                     <label for="nombre">Nombres*</label><br>
-                    <input type="text" placeholder="Ingrese nombre y apellido" name="nombre" required><br>
+                    <input type="text" placeholder="Ingrese nombre y apellido" name="nombre" minlength="5" maxlength="60" required ><br>
                     <label for="telefono">Teléfono / Celular</label><br>
                     <input type="text" placeholder="Ingrese el número de telefono" name="telefono" minlength="8" maxlength="8"><br>
                     <label for="correo">Correo Electronico*</label><br>
-                    <input type="text" placeholder="Ingrese correo electronico" name="correo" required><br>
+                    <input type="email" placeholder="Ingrese correo electronico" name="correo" required><br>
                     <label for="mensaje">Mensaje*</label><br>
-                    <input type="text" placeholder="Ingrese su mensaje" name="mensaje" required><br>
+                    <input type="text" placeholder="Ingrese su mensaje" name="mensaje" minlength="10" maxlength="240" required><br>
                     <input type="submit" value="Enviar Mensaje" name="Enviar">
                 </form>
             </div>

@@ -49,6 +49,9 @@
           <?php } ?>
         </table>
         </section>
+        <!-- Aqui esta el botón para generar un PDF con los datos -->
+        <a style="text-decoration:none; color: black;" href="pdf.php">
+        <button id="pdf"><img src="images/pdf.png" width="40px"></button></a>
         <footer>
             <p class="pbx"><b>PBX. 20222004</b></p>
             <p class="direccion"><b>Dirección: Liceo Canadiense</b></p>
