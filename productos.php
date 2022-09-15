@@ -20,7 +20,7 @@
                 <a class="active" href="productos.php">Productos / Servicios</a> 
                 <a href="tiendas.php">Tiendas</a> 
                 <a href="contactenos.php">Contáctenos</a>
-                <a href="index.php">Login</a>
+                <a href="index.php">Inicio de Sesión</a>
             </div>
         </header>
         <section class="titulo">

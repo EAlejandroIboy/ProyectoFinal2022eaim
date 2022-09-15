@@ -6,12 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="images/icon2.png">
     <link rel="stylesheet" href="index.css">
-    <title>Login</title>
+    <title>Inicio de Sesión</title>
 </head>
 <body>
     <section class="form-login">
         <form name="form1" action="adidas.php" method="post">
-            <h5>Login</h5>
+            <h5>Inicio de Sesión</h5>
             <input class="controls" type="text" name="usuario" placeholder="Usuario"><br>
             <input class="controls" type="password" name="pass" placeholder="Contraseña"><br><br>
             <input class="buttons" type="button" value="Ingresar" id="button" onclick="usrpas()">
